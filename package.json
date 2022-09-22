@@ -1,0 +1,46 @@
+{
+  "name": "skdesign-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 8000"
+  },
+  "dependencies": {
+    "@artsy/fresnel": "^1.9.0",
+    "@reduxjs/toolkit": "^1.7.1",
+    "fslightbox-react": "^1.6.2-2",
+    "lodash": "^4.17.20",
+    "next": "^11.1.2",
+    "nprogress": "^0.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-grid": "^4.0.4",
+    "react-input-mask": "^2.0.4",
+    "react-loading-skeleton": "^2.2.0",
+    "react-redux": "^7.2.1",
+    "react-svgmt": "^1.1.11",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/helper-define-map": "^7.13.12",
+    "@babel/helper-regex": "^7.10.5",
+    "@babel/preset-env": "^7.16.0",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^14.1.1",
+    "@types/lodash": "^4.14.177",
+    "@types/node": "^14.11.8",
+    "@types/react": "^18.0.1",
+    "@types/react-input-mask": "^3.0.1",
+    "@types/react-redux": "^7.1.9",
+    "@types/styled-components": "^5.1.4",
+    "babel-core": "^6.26.3",
+    "babel-plugin-styled-components": "^1.11.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "next-redux-wrapper": "^7.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "typescript": "^4.0.3"
+  }
+}

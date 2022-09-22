@@ -1,0 +1,21 @@
+export const Fonts = {
+  PN_400_9_16: "normal normal 400 9px/16px 'Proxima Nova', sans-serif",
+  PN_400_10_15: "normal normal 400 10px/1.5em 'Proxima Nova', sans-serif",
+  PN_400_12_18: "normal normal 400 12px/1.5em 'Proxima Nova', sans-serif",
+  PN_400_14_14: "normal normal 400 14px/1em 'Proxima Nova', sans-serif",
+  PN_400_14_20: "normal normal 400 14px/20px 'Proxima Nova', sans-serif",
+  PN_400_14_21: "normal normal 400 14px/1.5em 'Proxima Nova', sans-serif",
+  PN_600_12_12: "normal normal 600 12px/1em 'Proxima Nova', sans-serif",
+  PN_600_14_14: "normal normal 600 14px/1em 'Proxima Nova', sans-serif",
+
+  SF_400_12_12: "normal normal 400 12px/1em 'SF UI Display', sans-serif",
+  SF_400_14_21: "normal normal 400 14px/1.5em 'SF UI Display', sans-serif",
+  SF_400_18_27: "normal normal 400 18px/1.5em 'SF UI Display', sans-serif",
+  SF_600_14_21: "normal normal 600 14px/1.5em 'SF UI Display', sans-serif",
+  SF_600_18_18: "normal normal 600 18px/1em 'SF UI Display', sans-serif",
+  SF_600_18_27: "normal normal 600 18px/1.5em 'SF UI Display', sans-serif",
+  SF_600_24_24: "normal normal 600 24px/1em 'SF UI Display', sans-serif",
+  SF_600_24_36: "normal normal 600 24px/1.5em 'SF UI Display', sans-serif",
+  SF_600_36_36: "normal normal 600 36px/1em 'SF UI Display', sans-serif",
+  SF_700_24_24: "normal normal 700 24px/1em 'SF UI Display', sans-serif",
+}
