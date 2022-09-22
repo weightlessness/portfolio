@@ -127,6 +127,7 @@ const PageDesigners = () => {
     const [showThx, setShowThx] = useState(false)
     const [leftColumnSize, setLeftColumnSize] = useState<number>(0)
     const [rightColumnSize, setRightColumnSize] = useState<number>(0)
+    const [needToReset, setNeedToReset] = useState(false)
 
     const [width] = useClientWidth();
     
@@ -267,10 +268,8 @@ const PageDesigners = () => {
                                             new Promise((resolve) => {
                                               setTimeout(() => resolve(values), 2000);
                                             }).then(res => {
-                                                    console.log(res)
                                                     setLoading(false)
                                                     setShowThx(true)
-                                                    setValues({})
                                             })
                                                 .catch(() => console.log('Show error on form'))
 
